@@ -3,11 +3,48 @@
 $roboto: 'Roboto', sans-serif;
 $conRoboto: 'Roboto Condensed', sans-serif;
 
-h1{
-  font: 2em $roboto;
+h2{
+  font: 1.5em $roboto;
   font-weight: bold;
+  text-overflow: wrap;
 }
 
+.main{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
 a {
   text-decoration: none;
+}
+
+.appWindow {
+  padding-left: 2vw;
+}
+
+.formulaImage {
+  margin: 2vh;
+}
+
+.eqnText {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 6vh;
+
+}
+.eqnText2 {
+  text-align: right;
+  font-size: 2rem;
+  margin-top: 6vh;
+
+}
+.eqnText.leftParen{
+  font-size: 100px;
+  margin-top: 0vh;
+  text-align: right;
+}
+
+.eqnText.rightParen{
+  font-size: 100px;
+  margin-top: 0vh;
+  text-align: left;
 }
