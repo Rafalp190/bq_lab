@@ -146,7 +146,7 @@ class Index extends React.Component {
           </Hidden>
         </nav>
         <Switch>
-          <Route exact path="/" component={Phcalc} />
+          <Route exact path="/" component={Mcalc} />
           <Route path="/phcalc" component={Phcalc} />
           <Route path="/mcalc" component={Mcalc} />
           <Route path="/calcurve" component={Calcurve}/>
